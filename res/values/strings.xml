@@ -4,5 +4,11 @@
     <string name="app_name">ExcuseApp</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="excuses_names_low">
+        <item >Dentist Appointment</item>
+        <item >Pick up little brother</item>
+    </string-array>
+    <string-array name="excuses_names_med"></string-array>
+    <string-array name="excuses_names_high"></string-array>
 
 </resources>
