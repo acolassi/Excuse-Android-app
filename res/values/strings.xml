@@ -7,8 +7,21 @@
     <string-array name="excuses_names_low">
         <item >Dentist Appointment</item>
         <item >Pick up little brother</item>
+        <item >Doctor Appointment</item>
+        <item >I'm meeting a friend </item>
+        <item >Go to little cousin's birthday party</item>
+        <item />
     </string-array>
-    <string-array name="excuses_names_med"></string-array>
-    <string-array name="excuses_names_high"></string-array>
+    <string-array name="excuses_names_med">
+        <item >My friend's car broke down and he needs a ride</item>
+        <item >I have to go on a conference call for work</item>
+        <item >My boss asked me to come into work</item>
+        <item />
+    </string-array>
+    <string-array name="excuses_names_high">
+        <item >A pipe in my house broke</item>
+        <item >My Mom is in the hospital</item>
+        <item />
+    </string-array>
 
 </resources>
