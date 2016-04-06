@@ -8,13 +8,13 @@
         <item >Dentist Appointment</item>
         <item >Pick up little brother</item>
         <item >Doctor Appointment</item>
-        <item >I'm meeting a friend </item>
-        <item >Go to little cousin's birthday party</item>
+        <item >Meeting a friend </item>
+        <item >Go to little cousin\'s birthday party</item>
         <item />
     </string-array>
     <string-array name="excuses_names_med">
-        <item >My friend's car broke down and he needs a ride</item>
-        <item >I have to go on a conference call for work</item>
+        <item >Friend\'s car broke down and needs a ride</item>
+        <item >Have to go on a conference call for work</item>
         <item >My boss asked me to come into work</item>
         <item />
     </string-array>
