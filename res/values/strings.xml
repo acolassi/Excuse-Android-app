@@ -10,18 +10,23 @@
         <item >Doctor Appointment</item>
         <item >Meeting a friend </item>
         <item >Go to little cousin\'s birthday party</item>
-        <item />
+        <item >Pick up brother/sister from friends house </item>
+        <item >I have to study for a test </item>
+        <item >I have to pick up my dog from the vet</item>
     </string-array>
     <string-array name="excuses_names_med">
         <item >Friend\'s car broke down and needs a ride</item>
         <item >Have to go on a conference call for work</item>
         <item >My boss asked me to come into work</item>
-        <item />
+        <item >Have to take my Grandmom to the pharmacy</item>
+        <item >My Mom is sick</item>
+        <item >Have to work on a group project</item>
     </string-array>
     <string-array name="excuses_names_high">
         <item >A pipe in my house broke</item>
         <item >My Mom is in the hospital</item>
-        <item />
+        <item >My house alarm is going off</item>
+        <item >Someone broke into my car</item>
     </string-array>
 
 </resources>
