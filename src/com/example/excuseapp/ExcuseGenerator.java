@@ -40,7 +40,7 @@ public class ExcuseGenerator
 				output = tmp[r.nextInt(tmp.length-1)];
 				break;
 			default:
-				output = "Err...non excuses?";
+				output = "Err...no excuses?";
 			}
 		}
 		catch(NotFoundException e)
