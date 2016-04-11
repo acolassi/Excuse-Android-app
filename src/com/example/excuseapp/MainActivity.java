@@ -6,6 +6,7 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -51,7 +52,8 @@ public class MainActivity extends Activity implements OnClickListener
 		
 		Notification alert = new NotificationCompat.Builder(this)
 		.setContentTitle("Alert")
-		.setContentText("Hello")
+		.setContentText(excuse)
+		.setSmallIcon(R.drawable.ic_launcher)
 		.build();
 		
 		mgr.notify(32, alert);
