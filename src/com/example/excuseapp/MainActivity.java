@@ -53,7 +53,7 @@ public class MainActivity extends Activity implements OnClickListener
 		Notification alert = new NotificationCompat.Builder(this)
 		.setContentTitle("Alert")
 		.setContentText(excuse)
-		.setSmallIcon(R.drawable.ic_launcher)
+		.setSmallIcon(android.R.drawable.ic_dialog_alert)
 		.build();
 		
 		mgr.notify(32, alert);
