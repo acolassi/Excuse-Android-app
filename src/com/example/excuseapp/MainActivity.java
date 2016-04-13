@@ -25,20 +25,25 @@ public class MainActivity extends Activity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.excuseviewer);
 		
+		// Set click handlers
 		((Button)findViewById(R.id.low_priority)).setOnClickListener(this);
 		((Button)findViewById(R.id.med_priority)).setOnClickListener(this);
 		((Button)findViewById(R.id.high_priority)).setOnClickListener(this);
 		
+		// Instantiate new ExcuseGenerator
 		ex = new ExcuseGenerator(this);
 		
+		// Get handle to NotificationManager
 		mgr = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
 		
+		// Get handle to Context
 		c = this;
 	}
 
 	@Override
 	public void onClick(View v)
 	{
+		// Check which button was pressed and generate excuse according to priority
 		final String excuse;
 		switch(v.getId())
 		{
@@ -55,12 +60,14 @@ public class MainActivity extends Activity implements OnClickListener
 			excuse = null;
 		}
 		
+		// Delay notification by 5 minutes (300,000ms)
 		Handler handler = new Handler();
 		handler.postDelayed(new Runnable()
 		{
 			@Override
 			public void run()
 			{
+				// Build notification
 				Notification alert = new NotificationCompat.Builder(c)
 						.setContentTitle("Alert")
 						.setContentText(excuse)

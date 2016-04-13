@@ -8,6 +8,13 @@ import android.content.res.Resources.NotFoundException;
 import android.util.Log;
 import android.widget.Toast;
 
+/**
+ * ExcuseGenerator
+ * 
+ * Generates Excuses based on strings.xml
+ * @author aaron
+ *
+ */
 public class ExcuseGenerator
 {
 	private static Random r = new Random();
@@ -17,6 +24,12 @@ public class ExcuseGenerator
 	{
 		this.context = c;
 	}
+	
+	/**
+	 * 
+	 * @param priority a constant 1, 2, or 3; 1 being highest priority excuse, 3 being lowest
+	 * @return the excuse string
+	 */
 	
 	public String getExcuse(int priority)
 	{
